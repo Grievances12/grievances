@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <title>Grievance</title>
+
+    <link rel="stylesheet" href="css/maicons.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.css">
+
+    <link rel="stylesheet" href="vendor/animate/animate.css">
+
+    <link rel="stylesheet" href="css/theme.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="back-to-top"></div>
+
+    <!-- Navbar Starts -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="text-primary">Grievance</span></a>
+
+                <form action="#">
+                    <div class="input-group input-navbar">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="icon-addon1"><img src="assets/search.svg" alt="search"
+                                    width="20px"></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search..." aria-label="Username"
+                            aria-describedby="icon-addon1">
+                    </div>
+                </form>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport"
+                    aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupport">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#comp">Your Complaint</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myG">My Grivances</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#login"><button id="myBtn"
+                                    class="btn btn-primary ml-lg-3">Loigin/Register</button></a>
+                        </li>
+                        <script>
+                            var navitem = document.getElementsByClassName("nav-item");
+                            for (var i = 0; i < navitem.length; i++) {
+                                navitem[i].addEventListener("click", function () {
+                                    var current = document.getElementsByClassName("active");
+                                    current[0].className = current[0].className.replace(" active", "");
+                                    this.className += " active";
+                                });
+                            }
+                        </script>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar Ends -->
+
+    <!-- home section --> 
+    <div class="page-hero bg-image overlay-dark" style="background-image: url(assets/hero.jpg); background-position: fixed; height: 70vh;">
+        <div class="hero-section">
+          <div class="container text-center wow zoomIn">
+            <span class="subhead">“You must remember that you are called to save and set others free, to raise and develop strong and powerful leaders, who will form the government of the nations for Christ” </span>
+            <h1 class="display-4"></h1>
+            <a href="#" class="btn btn-primary">Take a part</a>
+          </div>
+        </div>
+      </div>
+    <!-- home section ends -->
+
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

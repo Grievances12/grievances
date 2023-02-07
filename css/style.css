@@ -162,3 +162,17 @@
 .card-blog{
     border-radius:50px; 
 }
+
+.scheme>div{
+    padding-left:20px;
+}
+
+.modal{
+    background: #f8f9fa;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 20px 12px #495057;
+    height: auto;
+    border-radius: 10px;
+    width: auto;
+    padding: 20px;
+}
